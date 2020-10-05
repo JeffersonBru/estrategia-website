@@ -13,7 +13,7 @@ public class StepDefinitions {
 	
     @Given("^Desejo acessar a url \"([^\"]*)\"$")
     public void acessarPagina(String url) throws Throwable {
-    	Capabilities.getDriver().get(url);
+    	Capabilities.acessaAplicacao(url);
     }
     
     @Then("^Devo ver as opcoes no navbar$")

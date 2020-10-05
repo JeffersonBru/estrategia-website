@@ -96,7 +96,8 @@ public class HelpConsultaProfessor extends Suporte {
 	public void alertaIsPresent() {
 		try {
 			aguardarNav();
-			clickJs(pg.ALERTA_DIALOGO);
+			clickJs(pg.LOGO_HOME);
+			aguardaElemento(ExpectedConditions.visibilityOf(pg.LOGO_HOME));
 			acoesTeclado(Keys.TAB, Keys.TAB, Keys.TAB);
 			acoesTeclado(Keys.ENTER);
 		} catch (Exception e) {

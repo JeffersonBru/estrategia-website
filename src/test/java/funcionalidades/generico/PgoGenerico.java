@@ -50,8 +50,8 @@ public class PgoGenerico {
 	 * Dialogo alert
 	 */
 	
-	@FindBy(css = "#getsitecontrol")
-	public WebElement ALERTA_DIALOGO;
+	@FindBy(css = ".layout-header-logo")
+	public WebElement LOGO_HOME;
 	
 	@FindBy(css = ".getsitecontrol-close")
 	public WebElement BOTAO_NEGAR_ALERTA;

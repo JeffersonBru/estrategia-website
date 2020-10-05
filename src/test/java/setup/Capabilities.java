@@ -74,7 +74,8 @@ public class Capabilities {
 	/**
 	 * Acessa a aplicacao
 	 */
-	protected void acessaAplicacao(String url) {
+	public static void acessaAplicacao(String url) {
+		driver.get().manage().window().maximize();
 		driver.get().get(url);
 	}
 
