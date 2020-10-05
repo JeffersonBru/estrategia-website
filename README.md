@@ -23,3 +23,8 @@
 - Java 8
 - Maven 3.6.1
 
+
+
+### 🐛 Bugs
+
+https://github.com/JeffersonBru/estrategia-website/issues
