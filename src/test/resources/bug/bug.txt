@@ -1,0 +1,3 @@
+Os bugs estão cadastrados no GitHub conforme consta no link abaixo.
+
+https://github.com/JeffersonBru/estrategia-website/issues
