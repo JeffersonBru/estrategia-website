@@ -6,6 +6,9 @@
 
  - Execução do teste pode ser realizadas via suite.xml através do TestNG utilizando uma IDE; ou
  - Através dos comandos "mvn clean install" ou "mvn verify" utilizando um terminal na pasta raiz do projeto
+ 
+### 🌎 Navegador utilizado Obs: deverá utilizar no mínimo a versão abaixo
+ - Chrome Versão 85.0.4183.121
 
 ### 🛠️ Ferramentas Utilizadas
 
