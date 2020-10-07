@@ -7,7 +7,7 @@ Feature: Consultas por professor e materia
 
   Scenario Outline: Validar por "<validacao>"
     When Eu aciono a opcao de consulta por "<tipoConsulta>"
-    And procuro pelo nome "<nomeConsulta>"
+    And procuro e detalho os cursos da opcao "<nomeConsulta>"
     Then valido "<validacao>"
     Examples:
     | tipoConsulta | nomeConsulta   | validacao                                |

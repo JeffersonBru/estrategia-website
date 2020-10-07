@@ -30,7 +30,7 @@ public class StepDefinitions {
     	}
     }
     
-    @And("^procuro pelo nome \"([^\"]*)\"$")
+    @And("^procuro e detalho os cursos da opcao \"([^\"]*)\"$")
     public void procurarPorNome(String nome) throws Throwable {
     	hlp.selecionarDetalhesPeloNome(nome);
     }
