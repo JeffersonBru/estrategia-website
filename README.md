@@ -28,3 +28,7 @@
 ### 🐛 Bugs
 
 https://github.com/JeffersonBru/estrategia-website/issues
+
+### 📖 Features
+
+https://github.com/JeffersonBru/estrategia-website/tree/main/src/test/resources/features
